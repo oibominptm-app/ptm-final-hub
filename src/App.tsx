@@ -26,7 +26,8 @@ export default function App() {
     setLinks(links.filter(link => link.id !== id));
   };
 
-  return (
+  return (return (
+  <div style={{ backgroundColor: '#111827', color: '#fef3c7', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '24px' }} className="min-h-screen bg-gradient-to-br from-gray-900 via-amber-950 to-black text-amber-100 font-sans p-6 flex flex-col items-center">
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-amber-950 to-black text-amber-100 font-sans p-6 flex flex-col items-center">
       {/* ส่วนหัวเว็บโลโก้สีทองหรูหรา */}
       <div className="w-full max-w-md text-center my-8 p-6 border border-amber-500/30 rounded-2xl bg-black/40 backdrop-blur-md shadow-2xl shadow-amber-500/10">
