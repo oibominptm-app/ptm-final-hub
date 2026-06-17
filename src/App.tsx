@@ -1,3 +1,5 @@
+// @ts-nocheck
+import 'https://cdn.jsdelivr.net/npm/tailwindcss-just-in-time@0.1.5/dist/tailwind.min.css';
 import React, { useState } from 'react';
 
 export default function App() {
