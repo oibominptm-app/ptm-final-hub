@@ -486,7 +486,7 @@ export default function App() {
                   ) : (
                     <img 
                       id="login-logo-img"
-                      src={settings.logoBase64} 
+                      src={<h1>PTM Agriculture</h1>} 
                       alt="PTM Agriculture Logo" 
                       className="w-full h-full object-contain filter brightness-105 contrast-105 transform scale-150"
                       onError={() => setLogoError(true)}
